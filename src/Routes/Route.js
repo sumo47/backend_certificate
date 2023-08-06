@@ -23,7 +23,7 @@ router.get('/getNotes',auth, getNote)
 router.put('/updateNote/:noteId',auth, updateNote )
 router.delete('/deleteNote/:noteId',auth, deleteNote )
 
-router.put('/addCertificate', auth, addCertificate)
+router.post('/addCertificate', auth, addCertificate)
 
 
 

@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const app = express()
 
-mongoose.connect("mongodb+srv://sumit:sumit@cluster0.8dflsuw.mongodb.net/notebook")
+mongoose.connect("mongodb+srv://sumit:sumit@cluster0.8dflsuw.mongodb.net/certificate")
     .then(() => { console.log("MongoDb connected sucessfylly") })
     .catch((err) => { console.log(err) })
 
