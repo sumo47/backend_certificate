@@ -18,11 +18,6 @@ router.post("/createUser", CreateUser)
 router.post("/login", LoginUser)
 router.get('/getUser', auth, getUser)
 
-router.post('/createNote', auth, createNote)
-router.get('/getNotes', auth, getNote)
-router.put('/updateNote/:noteId', auth, updateNote)
-router.delete('/deleteNote/:noteId', auth, deleteNote)
-
 router.post('/addCertificate', auth, addCertificate)
 router.post('/getCertificate', GetCertificate)
 
